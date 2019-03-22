@@ -17,15 +17,18 @@ python -m pip install websockets
 		      websocket-client
 ```
 
+## Configurer le client web
 
-
-## A venir
-
-Tout _**pleins**_ de fonctionnalités qui arriveront d'ici peu! Les conversations privées, les smileys, la possibilité de gérer son statut, ... 
+Pour modifier l'adresse de connexion au serveur du client web, ouvrez le fichier "ClientsWeb/ressources/main.js" et éditez la ligne suivante au début du fichier:
+```
+ip = "127.0.0.1", port = "3653"
+```
 
 ## Lien test
 [https://github.com/becodeorg/BXLAnderlecht/blob/master/08-AJAX/php-chat.md](https://github.com/becodeorg/BXLAnderlecht/blob/master/08-AJAX/php-chat.md)
 
 ## Screenshots 
+
+Tout _**pleins**_ de fonctionnalités qui arriveront d'ici peu! Les conversations privées, les smileys, la possibilité de gérer son statut, ... 
 
 ![Connexion](https://i.imgur.com/BxP73v9.png)
