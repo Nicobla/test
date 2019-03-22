@@ -7,12 +7,15 @@
 
 ## Compiler le serveur
 
-Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang installé, et que la variable d'environnement ```GOPATH``` soit correctement configurée (se référer à la documentation de GoLang BENJAMIN EST CHIANT)
+Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang installé, et que la variable d'environnement ```GOPATH``` soit correctement configurée (se référer à la documentation de GoLang)
 
 ## Lancer le serveur
 
 + Windows: Ouvrer le fichier Gameserver.exe
 + Linux: Exécuter le fichier Gameserver
+
+Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. [##Configurer le serveur]Configurer le serveur), le serveur va en créer un avec des variables par défaut.
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 ## Configurer le serveur
 
