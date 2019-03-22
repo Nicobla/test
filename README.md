@@ -8,8 +8,14 @@
 ## Configurer le serveur
 
 Pour modifier les paramètres du serveur, ouvrez le fichier *config/server.json* et modifiez le/les paramètres qui vous intéressent:
-+ ```LogLevel``` niveau de log (```release```: affiche uniquement les messages de démarrage et d'extinction du serveur, ```error```: affiche les erreurs, ```debug```: affiche tout le détail des fonctions)
-```LogPath``` lolilol
+1. ```LogLevel``` niveau de log
+	+ ```release``` affiche uniquement les messages de démarrage et d'extinction du serveur
+	+ ```error``` affiche les erreurs
+	+ ```debug``` affiche tout le détail des fonctions)
+2. ```LogPath``` chemin du dossier des fichiers de logs (pas d'enregistrement si nul)
+3. **```TCPAddr```** adresse IP et port du serveur (port par défaut: 3563)
+4. **```WSAddr```** adresse IP et port du serveur (port par défaut: 3653)
+
 
 ## Configurer le client web
 
