@@ -26,7 +26,7 @@ ip = "127.0.0.1", port = "3653"
 
 ## Liste de commandes de lancement du bot Python
 
-+ -h, -help            \t\tAffiche le manuel de commande
++ ```-h, -help```            Affiche le manuel de commande
 + -g, -game            Définit le jeu sur lequel le bot joue (morpion ou puissance4)
 + -s, -serveur         Définit l'adresse IP de connexion au serveur
 + -p, -port            Définit le port de connexion au serveur
