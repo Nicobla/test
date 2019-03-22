@@ -7,7 +7,7 @@
 
 ## Compiler le serveur
 
-Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang installé, et que la variable d'environnement ```GOPATH``` soit correctement configurée (se référer à la documentation de GoLang)
+Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang installé, et que la variable d'environnement ```GOPATH``` soit correctement configurée (se référer à la [https://golang.org/doc/](documentation de GoLang))
 
 ## Lancer le serveur
 
