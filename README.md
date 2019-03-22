@@ -13,8 +13,8 @@ Pour modifier les paramètres du serveur, ouvrez le fichier *config/server.json*
 	+ ```error``` affiche les erreurs
 	+ ```debug``` affiche tout le détail des fonctions)
 2. ```LogPath``` chemin du dossier des fichiers de logs (pas d'enregistrement si nul)
-**3. ```TCPAddr``` adresse IP et port du serveur (port par défaut: 3563)**
-**4. ```WSAddr``` adresse IP et port du serveur (port par défaut: 3653)**
+3. ```TCPAddr``` adresse IP et port du serveur (port par défaut: 3563)
+4.** ```WSAddr``` adresse IP et port du serveur (port par défaut: 3653)**
 5. ```MaxConnNum``` maximum d'utilisateurs connectés en même temps autorisé
 6. ```TournamentMode``` mode de match-making (true: activé, false: désactivé)
 7. ```NbGames``` nom de parties maximales que deux mêmes adversaires peuvent faire l'un contre l'autre (si mode match-making activé)
