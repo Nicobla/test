@@ -24,16 +24,19 @@ python -m pip install websockets
 		      websocket-client
 ```
 
-## Liste de commandes de lancement du robot Python
+## Commandes du robot Python
 
-Pour lancer le bot Python, il faut se placer dans le dossier du robot 
+Pour lancer le bot Python, il faut se placer dans le répertoire du robot (ClientsRobots/Python/), et écrire la commande:
+```python BotPython.py```
 
-+ ```-h, -help```	Affiche le manuel de commande
-+ -g, -game		Définit le jeu sur lequel le bot joue (morpion ou puissance4)
-+ -s, -serveur		Définit l'adresse IP de connexion au serveur
-+ -p, -port		Définit le port de connexion au serveur
-+ -n			Définit le pseudo du bot
-+ -l, -log		Définit le niveau de log (Error, Warning ou Debug)
+À cette commande, vous pouvez ajouter des paramètres de lancement, parmis les suivants:
+
++ ```-h, -help```	+ Affiche le manuel de commande
++ ```-g, -game [Morpion/Puissance4]```	+ Définit le jeu sur lequel le bot joue (morpion ou puissance4)
++ ```-s, -serveur [IP]```		Définit l'adresse IP de connexion au serveur
++ ```-p, -port [port]```		Définit le port de connexion au serveur
++ ```-n [*pseudo*]```			Définit le pseudo du bot
++ ```-l, -log []```		Définit le niveau de log (Error, Warning ou Debug)
 
 
 ## Liste de commandes de lancement du bot C++
