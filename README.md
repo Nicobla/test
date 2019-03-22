@@ -64,8 +64,8 @@ python -m pip install websockets
 
 ## Commandes du robot Python
 
-Pour lancer le robot Python, il faut se placer dans le répertoire du robot [*ClientsRobots/Python/*](ClientsRobots/Python/), et écrire la commande:
-```python BotPython.py```
+Pour lancer le robot Python, il faut se placer dans le répertoire du robot [*ClientsRobots/Python/*](ClientsRobots/Python/), et écrire la commande: ```python BotPython.py```.
+Il se lancera alors avec des paramètres par défauts.
 
 À cette commande, vous pouvez ajouter des paramètres de lancement, parmis les suivants:
 
@@ -79,9 +79,9 @@ Pour lancer le robot Python, il faut se placer dans le répertoire du robot [*Cl
 
 ## Commandes de lancement du bot C++
 
-Pour lancer le robot C++, il faut d'abord se placer dans le répertoire du robot [*ClientsRobots/C++/*](ClientsRobots/C++/)
-	- Windows: et ouvrir l'exécutable
-	- Linux: et ouvrir le fichier .sh
+Pour lancer le robot C++, il faut d'abord se placer dans le répertoire du robot [*ClientsRobots/C++/*](ClientsRobots/C++/), puis:
++ Windows: ouvrir l'exécutable
++ Linux: ouvrir le fichier .sh
 Il se lancera alors avec des paramètres par défauts.
 
 Vous pouvez aussi le lancer avec une commande. À cette commande, vous pouvez ajouter des paramètres de lancement, parmis les suivants:
