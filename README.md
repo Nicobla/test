@@ -5,6 +5,10 @@
 + GoLang, Python, C++
 + HTML5, CSS3, JavaScript, jQuery
 
+## Compiler le serveur
+
+Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang installé, et que la variable d'environnement ```GOPATH``` soit correctement configurée (se référer à la documentation de GoLang BENJAMIN EST CHIANT)
+
 ## Lancer le serveur
 
 + Windows: Ouvrer le fichier Gameserver.exe
