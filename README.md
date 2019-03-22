@@ -1,11 +1,15 @@
 # Bienvenue sur le serveur de mini-jeux en GoLang !
 
-![Image](https://c.pxhere.com/photos/c5/d0/code_html_digital_coding_web_programming_computer_technology-670370.jpg!d)
-
 ## Langages utilisés
 
 + GoLang, Python, C++
 + HTML5, CSS3, JavaScript, jQuery
+
+## Configurer le serveur
+
+Pour modifier les paramètres du serveur, ouvrez le fichier *config/server.json* et modifiez le/les paramètres qui vous intéressent:
++ ```LogLevel``` niveau de log (```release```: affiche uniquement les messages de démarrage et d'extinction du serveur, ```error```: affiche les erreurs, ```debug```: affiche tout le détail des fonctions)
+```LogPath``` lolilol
 
 ## Configurer le client web
 
@@ -31,12 +35,12 @@ Pour lancer le bot Python, il faut se placer dans le répertoire du robot (Clien
 
 À cette commande, vous pouvez ajouter des paramètres de lancement, parmis les suivants:
 
-+ ```-h, -help```	+ Affiche le manuel de commande
-+ ```-g, -game [Morpion/Puissance4]```	+ Définit le jeu sur lequel le bot joue (morpion ou puissance4)
++ ```-h, -help```			Affiche le manuel de commande
++ ```-g, -game [morpion/puissance4]```	Définit le jeu sur lequel le bot joue (morpion ou puissance4)
 + ```-s, -serveur [IP]```		Définit l'adresse IP de connexion au serveur
 + ```-p, -port [port]```		Définit le port de connexion au serveur
-+ ```-n [*pseudo*]```			Définit le pseudo du bot
-+ ```-l, -log []```		Définit le niveau de log (Error, Warning ou Debug)
++ ```-n [pseudo]```			Définit le pseudo du bot
++ ```-l, -log [error/warning/debug]```	Définit le niveau de log (Error, Warning ou Debug)
 
 
 ## Liste de commandes de lancement du bot C++
