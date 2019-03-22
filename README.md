@@ -14,12 +14,12 @@ Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang install
 + Windows: Ouvrer le fichier Gameserver.exe
 + Linux: Exécuter le fichier Gameserver
 
-Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. [##Configurer le serveur]Configurer le serveur), le serveur va en créer un avec des variables par défaut.
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. [##Configurer le serveur](#Configurer le serveur)), le serveur va en créer un avec des variables par défaut.
+
 
 ## Configurer le serveur
 
-Pour modifier les paramètres du serveur, ouvrez le fichier *config/server.json* et modifiez le(s) paramètre(s) qui vous intéresse(nt):
+Pour modifier les paramètres du serveur, ouvrez le fichier [*config/server.json*](config/server.json) et modifiez le(s) paramètre(s) qui vous intéresse(nt):
 
 - ```LogLevel``` niveau de log
 	+ ```release``` affiche uniquement les messages de démarrage et d'extinction du serveur
