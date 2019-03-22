@@ -7,16 +7,6 @@
 + GoLang, Python, C++
 + HTML5, CSS3, JavaScript, jQuery
 
-## Installation du bot Python
-
-Pour lancer le bot Python, il faut au préalable installer plusieurs modules :
-```
-python -m pip install websockets
-		      websocket
-		      numpy
-		      websocket-client
-```
-
 ## Configurer le client web
 
 Pour modifier l'adresse de connexion au serveur du client web, ouvrez le fichier *ClientsWeb/ressources/main.js* et éditez la ligne suivante au début du fichier:
@@ -24,14 +14,26 @@ Pour modifier l'adresse de connexion au serveur du client web, ouvrez le fichier
 ip = "127.0.0.1", port = "3653"
 ```
 
-## Liste de commandes de lancement du bot Python
+## Installation du robot Python
 
-+ ```-h, -help```            Affiche le manuel de commande
-+ -g, -game            Définit le jeu sur lequel le bot joue (morpion ou puissance4)
-+ -s, -serveur         Définit l'adresse IP de connexion au serveur
-+ -p, -port            Définit le port de connexion au serveur
-+ -n                   Définit le pseudo du bot
-+ -l, -log             Définit le niveau de log (Error, Warning ou Debug)
+Pour lancer le robot Python, il faut au préalable installer plusieurs modules :
+```
+python -m pip install websockets
+		      websocket
+		      numpy
+		      websocket-client
+```
+
+## Liste de commandes de lancement du robot Python
+
+Pour lancer le bot Python, il faut se placer dans le dossier du robot 
+
++ ```-h, -help```	Affiche le manuel de commande
++ -g, -game		Définit le jeu sur lequel le bot joue (morpion ou puissance4)
++ -s, -serveur		Définit l'adresse IP de connexion au serveur
++ -p, -port		Définit le port de connexion au serveur
++ -n			Définit le pseudo du bot
++ -l, -log		Définit le niveau de log (Error, Warning ou Debug)
 
 
 ## Liste de commandes de lancement du bot C++
