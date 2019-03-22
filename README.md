@@ -14,7 +14,7 @@ Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang install
 + Windows: Ouvrer le fichier Gameserver.exe
 + Linux: Exécuter le fichier Gameserver
 
-Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. [##Configurer le serveur](#Configurer le serveur)), le serveur va en créer un avec des variables par défaut.
+Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. [#Configurer le serveur](#Configurer le serveur)), le serveur va en créer un avec des variables par défaut.
 
 
 ## Configurer le serveur
