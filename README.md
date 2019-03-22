@@ -14,8 +14,7 @@ Avant de compiler le serveur, assurez-vous d'avoir le compilateur GoLang install
 + Windows: Ouvrer le fichier Gameserver.exe
 + Linux: Exécuter le fichier Gameserver
 
-Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. [#Configurer le serveur](#Configurer le serveur)), le serveur va en créer un avec des variables par défaut.
-
+Au lancement du serveur, s'il n'existe pas de fichier de configuration (cf. Configurer le serveur), le serveur va en créer un avec des variables par défaut.
 
 ## Configurer le serveur
 
@@ -48,7 +47,7 @@ Pour modifier les paramètres du serveur, ouvrez le fichier [*config/server.json
 
 ## Configurer le client web
 
-Pour modifier l'adresse de connexion au serveur du client web, ouvrez le fichier *ClientsWeb/ressources/main.js* et éditez la ligne suivante au début du fichier:
+Pour modifier l'adresse de connexion au serveur du client web, ouvrez le fichier [*ClientsWeb/ressources/main.js*](ClientsWeb/ressources/main.js) et éditez la ligne suivante au début du fichier:
 ```
 ip = "127.0.0.1", port = "3653"
 ```
@@ -65,7 +64,7 @@ python -m pip install websockets
 
 ## Commandes du robot Python
 
-Pour lancer le robot Python, il faut se placer dans le répertoire du robot (ClientsRobots/Python/), et écrire la commande:
+Pour lancer le robot Python, il faut se placer dans le répertoire du robot [*ClientsRobots/Python/*](ClientsRobots/Python/), et écrire la commande:
 ```python BotPython.py```
 
 À cette commande, vous pouvez ajouter des paramètres de lancement, parmis les suivants:
@@ -80,7 +79,7 @@ Pour lancer le robot Python, il faut se placer dans le répertoire du robot (Cli
 
 ## Commandes de lancement du bot C++
 
-Pour lancer le robot C++, il faut d'abord se placer dans le répertoire du robot (ClientsRobots/C++/)
+Pour lancer le robot C++, il faut d'abord se placer dans le répertoire du robot [*ClientsRobots/C++/*](ClientsRobots/C++/)
 	+ Windows: et ouvrir l'exécutable
 	+ Linux: et ouvrir le fichier .sh
 Il se lancera alors avec des paramètres par défauts.
