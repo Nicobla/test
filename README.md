@@ -12,9 +12,9 @@
 Pour lancer le bot Python, il faut au préalable installer plusieurs modules :
 ```
 python -m pip install websockets
-				      websocket
-				      numpy
-				      websocket-client
+		      websocket
+		      numpy
+		      websocket-client
 ```
 
 
